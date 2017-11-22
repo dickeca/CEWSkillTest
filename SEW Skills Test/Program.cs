@@ -27,11 +27,15 @@ namespace SEW_Skills_Test
             var shortenedWordList = wordList.Where(x => x.Length >= smallest).ToList(); //check only the words large enough to contain other words.
 
             var output = new List<string>();
+            object resultsLock = new object();
             var status = Parallel.ForEach(shortenedWordList, word =>
             {
                 if (SubSearch(word, WordsByStartingLetter[word[0]].Where(x => x.Length < word.Length).ToList(), wordList))
                 {
-                    output.Add(word);
+                    lock (resultsLock)
+                    {
+                        output.Add(word);
+                    }            
                 }
             });
 
