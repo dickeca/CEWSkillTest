@@ -1,0 +1,9 @@
+H:\My Projects\SEW Skills Test\SEW Skills Test\bin\Debug\SEW Skills Test.exe.config
+H:\My Projects\SEW Skills Test\SEW Skills Test\bin\Debug\SEW Skills Test.exe
+H:\My Projects\SEW Skills Test\SEW Skills Test\bin\Debug\SEW Skills Test.pdb
+H:\My Projects\SEW Skills Test\SEW Skills Test\bin\Debug\Newtonsoft.Json.dll
+H:\My Projects\SEW Skills Test\SEW Skills Test\bin\Debug\Newtonsoft.Json.xml
+H:\My Projects\SEW Skills Test\SEW Skills Test\obj\Debug\SEW Skills Test.csprojResolveAssemblyReference.cache
+H:\My Projects\SEW Skills Test\SEW Skills Test\obj\Debug\SEW Skills Test.exe
+H:\My Projects\SEW Skills Test\SEW Skills Test\obj\Debug\SEW Skills Test.pdb
+H:\My Projects\SEW Skills Test\SEW Skills Test\bin\Debug\Data\words.json
